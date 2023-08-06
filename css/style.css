@@ -338,6 +338,7 @@ span {
   position: relative;
   display: inline-block;
   font-size: 2.6rem;
+  color: var(--main-color);
 }
 
 .about-content p {
