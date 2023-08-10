@@ -28,6 +28,9 @@ body {
   color: var(--text-color);
 }
 
+
+
+/* NAVBAR CSS */
 .header {
   position: fixed;
   top: 0;
@@ -84,11 +87,19 @@ body {
   display: none;
 }
 
+
+
+
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
 }
 
+
+
+
+
+/* HOME SECTION CSS */
 .home {
   display: flex;
   align-items: center;
@@ -278,6 +289,13 @@ section {
   opacity: 0.8;
 }
 
+
+
+
+
+
+
+/* ABOUT SECTION CSS  */
 .about {
   display: flex;
   justify-content: center;
@@ -311,6 +329,7 @@ span {
 
 .about-img img {
   width: 90%;
+  height: 90%;
   border-radius: 50%;
   border: 0.2rem solid var(--main-color);
 }
@@ -356,6 +375,12 @@ span {
   background: var(--second-bg-color);
 }
 
+
+
+
+
+
+/* MY JOURNEY SECTION CSS */
 .education {
   display: flex;
   justify-content: center;
@@ -451,6 +476,12 @@ span {
   padding-top: 0.5rem;
 }
 
+
+
+
+
+
+/* SKILLS SECTION CSS */
 .skills {
   min-height: auto;
   padding-bottom: 7rem;
@@ -577,6 +608,12 @@ span {
   width: 78%;
 }
 
+
+
+
+
+
+/* CONTACT SETION CSS */
 .contact {
   min-height: auto;
   padding-bottom: 7rem;
@@ -656,6 +693,12 @@ span {
   cursor: pointer;
 }
 
+
+
+
+
+
+/* FOOTER CSS */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -713,7 +756,12 @@ span {
   color: var(--main-color);
 }
 
-/* ANIMATION RELOAD AND SCROLL */
+
+
+
+
+
+/* ANIMATION RELOAD AND SCROLL  CSS*/
 .animate {
   position: absolute;
   top: 0;
@@ -760,7 +808,13 @@ section:nth-child(odd) .animate.scroll,
   width: 0;
 }
 
-/* Media queries  */
+
+
+
+
+
+
+/* Media queries CSS */
 @media screen and (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -915,6 +969,11 @@ section:nth-child(odd) .animate.scroll,
   }
 }
 
+
+
+
+
+/* ANIMATION KEYFRAMES CSSS */
 @keyframes homeBgText {
   0%,
   10%,
